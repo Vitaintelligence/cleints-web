@@ -155,6 +155,12 @@ html {
     transform: translateY(0);
 }
 .announcement-item .highlight { color: #FF3B7B; font-weight: 800; }
+/* maker credit */
+.maker-credit { margin-top: 10px; text-align: center; }
+.maker-pill { display: inline-block; background: #F1F5FE; border: 1px solid #E5E7EB; color: #0B0E13; padding: 6px 12px; border-radius: 999px; font-weight: 800; font-size: 0.9rem; }
+/* service chips */
+.service-chips { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; margin: 10px 0 18px; }
+.chip { background: #F3F4F6; border: 1px solid #E5E7EB; color: #0B0E13; border-radius: 999px; padding: 6px 10px; font-weight: 700; font-size: .9rem; }
 
 /* Why Now */
 .why-now-section { padding: 72px 0; background: #ffffff; }

@@ -39,6 +39,16 @@
 </head>
 
 <body>
+    <!-- Rotating Announcement Bar -->
+    <div class="announcement-bar" role="region" aria-label="Announcements">
+        <div class="container">
+            <div class="announcement-slider">
+                <p class="announcement-item active">🔥 Launch Price: <span class="highlight">₹599</span> — Lifetime access today</p>
+                <p class="announcement-item">✅ Built by <strong>Gulzar</strong> — runs ads for major brands</p>
+                <p class="announcement-item">🎯 Learn to run ads for <strong>Brands</strong>, <strong>Businesses</strong>, and <strong>Creators</strong></p>
+            </div>
+        </div>
+    </div>
     <header class="site-header">
         <div class="container nav-wrap">
             <a href="#hero" class="logo" aria-label="Brand logo">
@@ -81,6 +91,10 @@
                 <div class="micro-trust-bar">
                     <span>🔒 SSL Secure</span><span class="micro-sep">•</span><span>🇮🇳 UPI/Wallets</span><span class="micro-sep">•</span><span>⚡ Instant Access</span>
                 </div>
+            </div>
+
+            <div class="maker-credit">
+                <span class="maker-pill">Built by Gulzar — runs ads for major brands</span>
             </div>
 
             <div class="proof-summary reveal">
@@ -167,6 +181,13 @@
         <div class="container">
             <h2>Pick Your Path to Your First ₹10k–₹50k</h2>
             <p class="section-description">Different goals, same outcome: learn a money‑making skill that gets you paid.</p>
+            <div class="service-chips">
+                <span class="chip">Run ads for Brands</span>
+                <span class="chip">Run ads for Businesses</span>
+                <span class="chip">Run ads for Creators</span>
+                <span class="chip">Run ads for Local Shops</span>
+                <span class="chip">Run ads for Startups</span>
+            </div>
             <div class="cards-grid">
                 <div class="card6">
                     <div class="c6-ico">🎒</div>
@@ -928,6 +949,7 @@
             initExitIntent();
             initSpotsLeft();
             wireCheckout();
+            initAnnouncementRotator();
             // Reveal on scroll
             const revealEls = document.querySelectorAll('.reveal');
             const io = new IntersectionObserver((entries)=>{
