@@ -15,6 +15,23 @@
     <link rel="stylesheet" href="styles.css?v=3">
 
     <script>
+        // Bottom bar shows on upward scroll after initial scroll down
+        (function(){
+            var lastY = window.pageYOffset || document.documentElement.scrollTop;
+            var bar = null;
+            function onScroll(){
+                if(!bar){ bar = document.getElementById('bottomBar'); }
+                var y = window.pageYOffset || document.documentElement.scrollTop;
+                if(!bar) return;
+                if(y < lastY && y > 200){
+                    bar.style.transform = 'translateY(0)';
+                } else {
+                    bar.style.transform = 'translateY(100%)';
+                }
+                lastY = y;
+            }
+            window.addEventListener('scroll', onScroll, { passive: true });
+        })();
         !function (f, b, e, v, n, t, s) {
             if (f.fbq) return;
             n = f.fbq = function () {
@@ -128,18 +145,16 @@
     <section class="why-now-section reveal" id="pain-dream-solution">
         <div class="container">
             <h2>You’re Leaving ₹₹₹ On The Table If You Don’t Know FB Ads</h2>
-            <p class="why-sub">The money’s already flowing. The skill is the bridge.</p>
+            <p class="why-sub">Follow this plan to stop scrolling and start monetizing with a real skill.</p>
             <ul class="why-list">
-                <li><strong>Pain:</strong> You’re scrolling while others are monetizing.</li>
-                <li><strong>Pain:</strong> Brands spend $150B on ads — without experts, they burn it. With skills, they pay you.</li>
-                <li><strong>Pain:</strong> Tired of “trying” online biz with no results?</li>
+                <li>Day 1: Set up Business/Ads Manager the right way (no bans, clean naming).</li>
+                <li>Day 2: Install Pixel + CAPI, create custom conversions (track every rupee).</li>
+                <li>Day 3: Build 3 hooks × 2 creatives × 2 audiences (our plug‑and‑play grid).</li>
+                <li>Day 4: Launch your first campaign with proven defaults and guardrails.</li>
+                <li>Day 5: Kill losers fast, scale winners (watch CTR rise, CPL drop).</li>
+                <li>Day 6: Add retargeting (7‑day engaged + website visitors).</li>
+                <li>Day 7: Export results → 1‑page portfolio → pitch 10 leads.</li>
             </ul>
-            <details class="story-toggle">
-                <summary>Dream what changes when you control ads →</summary>
-                <div class="story-body">
-                    <p>Imagine running ads that make money while you sleep. Imagine charging ₹40,000–₹1,60,000 per client for ads you can set up in hours. This course bridges the gap — it turns you from “just another hustler” into a money‑printing advertiser.</p>
-                </div>
-            </details>
             <div class="impl-cta">
                 <a href="#enroll" class="cta-button primary-cta js-checkout">Bridge the Gap Now →</a>
             </div>
@@ -839,6 +854,20 @@
     <!-- Mobile Sticky CTA (auto-wired to checkout) -->
     <div class="mobile-sticky-cta">
         <a href="#enroll" class="js-checkout">Get Lifetime Access (₹599)</a>
+    </div>
+
+    <!-- Bottom Upscroll Bar -->
+    <div class="bottom-purchase-bar" id="bottomBar" style="transform: translateY(100%);">
+        <div class="bottom-bar-content container">
+            <div class="price-info">
+                <span class="original-price">₹4,99,700</span>
+                <span class="current-price">₹599 today</span>
+            </div>
+            <a href="#enroll" class="bottom-cta-button js-checkout">
+                <span class="cta-text">Enroll Now</span>
+                <span class="cta-timer">Offer ends soon</span>
+            </a>
+        </div>
     </div>
 
     <!-- Footer -->
