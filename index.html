@@ -62,17 +62,21 @@
     <section class="hero-v2" id="hero">
         <div class="hero-wrap">
             <div class="hero-eyebrow">ON‑DEMAND PROGRAM</div>
-            <h1 class="hero-headline">The Last<br><span class="text-gradient">Facebook Ads</span> Course<br>You’ll Ever Need</h1>
-            <p class="hero-sub">70+ bite‑sized lessons, lifetime updates, and the exact frameworks elite media buyers use to manage multi‑million‑₹ ad spends.</p>
-            <p class="hero-proof">No theory—only a practical, battle‑tested system you can implement today.</p>
-            <a href="#course-details" class="cta-hero">Get Lifetime Access at ₹1999 + GST</a>
-            <p class="hero-secure">Secure payment • Instant access</p>
+            <h1 class="hero-headline">Learn Facebook Ads to Make Money Faster<br><span class="text-gradient">Even If You’re Starting From Zero</span></h1>
+            <p class="hero-sub">70+ bite‑sized lessons, lifetime updates, and the exact frameworks top media buyers use to land clients, get hired, and generate side‑income.</p>
+            <p class="hero-proof">No fluff. A practical, battle‑tested system you can implement this week.</p>
+            <div class="countdown-container">
+                <span class="countdown-text">Launch price ends in</span>
+                <span id="countdown">24:00:00</span>
+            </div>
+            <a href="#enroll" class="cta-hero">Get Lifetime Access at ₹599</a>
+            <p class="hero-secure">Secure payment • Instant access • Limited spots: <strong id="spots-left-display">7</strong></p>
             <div class="hero-bullets">
                 <div class="hb-item">Lifetime access</div>
                 <div class="hb-item">Updated for 2025</div>
                 <div class="hb-item">Beginner‑friendly</div>
-                </div>
             </div>
+        </div>
     </section>
     <section class="hero-stats">
         <div class="stats-wrap">
@@ -92,7 +96,7 @@
     
 
     <!-- Premium 6‑card Course Overview (restored) -->
-    <section class="overview-cards white reveal">
+    <section class="overview-cards white reveal" id="course-details">
         <div class="container">
             <h2 class="black">Course Overview</h2>
             <p class="cards-sub black">A quick snapshot of what you master inside the course.</p>
@@ -108,6 +112,34 @@
                 <div class="card6"><div class="c6-ico">⚡</div><h3>Fast Launch Kit</h3><p>Prebuilt assets to set up winning campaigns in minutes.</p></div>
                 </div>
             </div>
+    </section>
+
+    <!-- Persona Paths (Money-focused outcomes) -->
+    <section class="reveal" id="who-this-is-for">
+        <div class="container">
+            <h2>Pick Your Path to Your First ₹10k–₹50k</h2>
+            <p class="section-description">Different goals, same outcome: learn a money‑making skill that gets you paid.</p>
+            <div class="cards-grid">
+                <div class="card6">
+                    <div class="c6-ico">🎒</div>
+                    <h3>Students & High‑Schoolers</h3>
+                    <p>Land paid internships, run ads for local businesses, and fund your studies.</p>
+                    <p class="micro-cta-link"><a href="#enroll">Start earning as a student →</a></p>
+                </div>
+                <div class="card6">
+                    <div class="c6-ico">🎓</div>
+                    <h3>University & Job‑Seekers</h3>
+                    <p>Stand out with real campaigns, build a portfolio, and get hired faster.</p>
+                    <p class="micro-cta-link"><a href="#enroll">Get job‑ready skills →</a></p>
+                </div>
+                <div class="card6">
+                    <div class="c6-ico">💼</div>
+                    <h3>Side‑Hustlers & Freelancers</h3>
+                    <p>Close your first client, charge monthly retainers, and scale income predictably.</p>
+                    <p class="micro-cta-link"><a href="#enroll">Close your first client →</a></p>
+                </div>
+            </div>
+        </div>
     </section>
 
     
@@ -164,8 +196,8 @@
             </div>
 
             <div class="impl-cta">
-                <a href="#course-details" class="cta-button primary-cta">Follow this roadmap inside the course →</a>
-                </div>
+                <a href="#enroll" class="cta-button primary-cta">Follow this roadmap inside the course →</a>
+            </div>
         </div>
     </section>
 
@@ -414,7 +446,7 @@
                     </tbody>
                 </table>
             </div>
-            <p class="micro-cta-link"><a href="#course-details">Choose the smart way →</a></p>
+            <p class="micro-cta-link"><a href="#enroll">Choose the smart way →</a></p>
         </div>
     </section>
 
@@ -494,7 +526,7 @@
             </div>
 
             <div class="final-cta-container">
-                <a href="#course-details" class="cta-button primary-cta mega-cta">
+                <a href="#enroll" class="cta-button primary-cta mega-cta">
                     <span class="cta-main">Get Started Today</span>
                     <span class="cta-sub">Secure payment • Instant access</span>
                 </a>
@@ -531,6 +563,51 @@
     </section>
 
     <!-- Sticky/bottom CTAs removed intentionally for a cleaner layout -->
+
+    <!-- Enroll Section -->
+    <section class="final-cta-section" id="enroll">
+        <div class="container">
+            <div class="final-warning">
+                <h2>Enroll Now — Launch Price ₹599</h2>
+                <p class="final-message">Get lifetime access, all future updates, and the full practical system to launch, optimize, and scale Facebook Ads that make money. No promises — real skills, clear steps.</p>
+            </div>
+
+            <div class="final-cta-container">
+                <a href="#" class="cta-button primary-cta mega-cta" onclick="trackConversion('InitiateCheckout')">
+                    <span class="cta-main">Unlock Lifetime Access</span>
+                    <span class="cta-sub">UPI • GPay • PhonePe • Paytm • Razorpay</span>
+                </a>
+
+                <div class="payment-options">
+                    <div class="payment-method">
+                        <img src="assets/icons/upi-icon.svg" alt="UPI">
+                        <span>UPI</span>
+                    </div>
+                    <div class="payment-method">
+                        <img src="assets/icons/7123945_logo_pay_google_gpay_icon.svg" alt="Google Pay">
+                        <span>Google Pay</span>
+                    </div>
+                    <div class="payment-method">
+                        <img src="assets/icons/phonepe-icon.svg" alt="PhonePe">
+                        <span>PhonePe</span>
+                    </div>
+                    <div class="payment-method">
+                        <img src="assets/icons/paytm-icon.svg" alt="Paytm">
+                        <span>Paytm</span>
+                    </div>
+                    <div class="payment-method">
+                        <img src="assets/icons/razorpay-icon.svg" alt="Razorpay">
+                        <span>Razorpay</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="final-trust">
+                <p>🔒 Your information is 100% secure and encrypted</p>
+                <p>⚠️ Educational program — results vary by effort and implementation</p>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer class="footer">
@@ -774,6 +851,7 @@
             initConversionTracking();
             animateViewers();
             updateTimerDisplay();
+            startCountdown();
             initExitIntent();
             initSpotsLeft();
             // Reveal on scroll

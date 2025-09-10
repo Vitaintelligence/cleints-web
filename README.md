@@ -87,6 +87,12 @@ This iteration focuses on a minimalist, disciplined design system: deep navy bac
 
 Docs: see `docs/Development Plan.md` for current plan and change log.
 
+Recent conversion upgrades (2025-09-10):
+- Money-outcome hero rewrite with countdown + spots
+- Persona paths for Students, Job-seekers, Freelancers
+- Unified anchor target `#enroll` with payment methods
+- Enabled exit-intent modal and session-scoped scarcity
+
 ## 📞 **Support**
 For any questions or support, contact: support@aiempirepack.com
 
