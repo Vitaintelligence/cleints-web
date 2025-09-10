@@ -6,6 +6,11 @@ Workspace Path: `C:\Wealth Projects\Agency\Client work\client 11 landing page\La
 Increase landing page conversions for the Facebook Ads Course by aligning messaging to money-driven outcomes and simplifying the path to checkout.
 
 ## 2025-09-10 Changes
+- Implemented blueprint upgrades per brief:
+  - Announcement copy updated with urgency + credibility
+  - Hero rewritten (dream-first headline, subhead, CTA)
+  - Added Pain–Dream–Solution, outcome-first Course Breakdown, Dream Lifestyle
+  - Brands Hiring proof, Testimonials, Scarcity/Urgency, Bonuses (Hormozi stack), Risk Reversal
 - Hero rewritten to promise money-relevant outcomes for key personas (students, job seekers, freelancers) with clear proof framing.
 - Added countdown and session-scoped spots to introduce light urgency.
 - Introduced a Persona Paths section mapping goals → outcomes.
