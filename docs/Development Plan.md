@@ -12,6 +12,9 @@ Increase landing page conversions for the Facebook Ads Course by aligning messag
 - Unified CTAs to a dedicated `#enroll` section with Indian payment methods and trust copy.
 - Re-enabled exit-intent modal for desktop visitors.
 - Fixed internal anchors to reduce friction and dead-ends.
+- Added top-of-page proof summary (stars + metrics) and micro-trust.
+- Implemented 7‑Day Quickstart plan and additional CTA.
+- Added mobile sticky CTA and a configurable checkout URL wiring with WhatsApp fallback.
 
 ## Next Candidates
 - Wire actual checkout URL to the primary CTA.
