@@ -12,6 +12,14 @@
 .card6 .c6-ico { font-size: 1.6rem; margin-bottom: 8px; }
 .card6 h3 { margin: 0 0 6px; color: #0B0E13; }
 .card6 p { margin: 0; color: #334155; }
+.value-badge { display: inline-block; margin-left: 6px; background: #FFF3C4; color: #92400E; border: 1px solid #F59E0B; border-radius: 8px; padding: 2px 6px; font-weight: 800; font-size: 0.78rem; }
+.offer-total { display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: center; margin-top: 16px; background: #FFFFFF; border: 1px solid #E5E7EB; border-radius: 14px; padding: 14px; box-shadow: 0 12px 30px rgba(2,6,23,.08); }
+.ot-left .ot-line { color: #0B0E13; font-weight: 700; }
+.ot-left .ot-line.big { font-size: 1.2rem; }
+.ot-left .price { color: #FF2D55; font-weight: 900; }
+.ot-left .strike { text-decoration: line-through; color: #6B7280; }
+.ot-note { color: #6B7280; font-size: 0.9rem; }
+.ot-right .primary-cta { margin: 0; }
 @media (max-width: 900px){ .cards-grid { grid-template-columns: 1fr; } }
 .description-page,
 .description-page * {

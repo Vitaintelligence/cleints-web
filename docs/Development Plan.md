@@ -15,6 +15,7 @@ Increase landing page conversions for the Facebook Ads Course by aligning messag
 - Added top-of-page proof summary (stars + metrics) and micro-trust.
 - Implemented 7‑Day Quickstart plan and additional CTA.
 - Added mobile sticky CTA and a configurable checkout URL wiring with WhatsApp fallback.
+- Replaced generic Course Overview with an Offer Stack (priced bonuses + total value) and added a Creative Swipe Showcase with copy buttons.
 
 ## Next Candidates
 - Wire actual checkout URL to the primary CTA.
